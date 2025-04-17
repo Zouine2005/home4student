@@ -1,0 +1,37 @@
+.textPublicitaire{
+    position: absolute;
+    top: 80px;
+    left: 50%;
+    transform: translate(-50%);
+    font-family: Arial, sans-serif;
+    width: 100%;
+}
+.textPublicitaire h1,.textPublicitaire h2{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(4, 7, 45);
+    -webkit-text-fill-color:rgb(11, 11, 11);
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-width: rgb(58, 157, 162);
+}
+
+@media (max-width: 1230px){
+    .textPublicitaire{
+
+        top: 90px;
+    }
+    .textPublicitaire h1,.textPublicitaire h2{
+        font-size: 30px;
+    }
+    
+}
+@media (max-width: 900px){
+    .textPublicitaire h1,.textPublicitaire h2{
+        font-size: 25px;
+    } 
+}
+@media (max-width: 620px){
+    .textPublicitaire h1,.textPublicitaire h2{
+        font-size: 20px;
+    } 
+}
