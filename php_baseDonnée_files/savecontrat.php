@@ -4,7 +4,7 @@
 // تكوين الاتصال بقاعدة البيانات
 $servername = "localhost";
 $username = "root";
-$password = "";
+$password = "12345678";
 $dbname = "location_colocation_logement_db";
 
 // إنشاء اتصال

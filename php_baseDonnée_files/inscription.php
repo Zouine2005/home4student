@@ -1,6 +1,6 @@
 
 <?php
-    $conn= mysqli_connect("localhost","root","","location_colocation_logement_db");
+    $conn= mysqli_connect("localhost","root","12345678","location_colocation_logement_db");
     if(!$conn){
         echo'Erreur dans la connexion a la base de donné';
     }
